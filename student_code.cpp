@@ -47,7 +47,7 @@ class result : public student,public test
         }
         cout << "Total marks of student is : " << total_marks << endl;
         Percentage = (total_marks/500)*100;
-        cout << "Percentage of the student is : " << Percentage << endl;
+        cout << "Percentage of the student is : " << Percentage << " %" << endl;
     }
 };
 
